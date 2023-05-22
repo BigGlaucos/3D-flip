@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Flip</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://icons8.com/icon/DgSe9XMxNgsA/joker"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box-item">
+        <div class="flip-box">
+        
+            <div
+            class="flip-box-front text-center"
+            style="
+              background-image: url('https://avatars.githubusercontent.com/u/101951153?v=4');
+            "
+          >
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Glaucos Cavalcante</h3>
+              <p>Maceió,Alagoas</p>
+            </div>
+          </div>
+          <div
+            class="flip-box-back text-center"
+            style="
+              background-image: url('https://art.pixilart.com/df454607eecb936.gif');
+            "
+          >
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Desenvolvedor Front-End</h3>
+              <p>Redes Sociais</p>
+              <div class="iconWrapper">
+                <ul>
+                  <li>
+                    <a href=""
+                      ><img
+                        src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""><img src="./img/linkedin.png" alt="" /> </a>
+                  </li>
+                  <li>
+                    <a href=""><img src="./img/instagram.png" alt="" /> </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <button id="likeContain">
+            <p id="likeNumber">0</p>
+            <svg id="like" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+                <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+              </svg>
+        </button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
